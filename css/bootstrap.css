@@ -1245,8 +1245,8 @@ h5,
 .h5,
 h6,
 .h6 {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  /*margin-top: 10px;*/
+  /*margin-bottom: 10px;*/
 }
 h4 small,
 .h4 small,
@@ -1287,7 +1287,7 @@ h6,
   font-size: 12px;
 }
 p {
-  margin: 0 0 10px;
+  /*margin: 0 0 10px;*/
 }
 .lead {
   margin-bottom: 20px;
@@ -1619,7 +1619,7 @@ pre code {
   padding-left: 15px;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
-  float: left;
+  float: right;
 }
 .col-xs-12 {
   width: 100%;
@@ -2092,7 +2092,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: right;
+    float: left;
   }
   .col-lg-12 {
     width: 100%;
